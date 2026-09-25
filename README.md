@@ -100,22 +100,32 @@ Every lesson starts with a [monkeytype](https://monkeytype.com/) warmup :)
 - **Activity:** number-guessing game or menu-driven program (loop input)
 
 ## Lesson 06 - Lists and Tuples
+- Why collections are useful
 
 ## Lesson 07 - Dictionaries and Sets
+- Key-value data
 
 ## Lesson 08 - Functions and Program Organization
+- Why functions matter
 
 ## Lesson 09 - Errors, Exceptions, and Debugging
+- Syntax errors, runtime errors, logic errors
 
 ## Lesson 10 - Files and Persistent Data
+- Why programs need persistence
 
 ## Lesson 11 - Modules, Libraries, and the Ecosystem
+- Why split into modules
 
 ## Lesson 12 - Object-Oriented Programming
+- Why use objects
 
 ## Lesson 13 - Comprehensions, Iteration, and More Pythonisms
+- List comprehensions
 
 ## Lesson 14 - Testing, Code Quality, and Documentation
-[PEP 8](https://peps.python.org/pep-0008/)
+- Why testing matters
+- Style guide: [PEP 8](https://peps.python.org/pep-0008/)
 
 ## Lesson 15 - Intermediate Python and Design
+- Managing larger programs
