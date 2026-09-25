@@ -1,5 +1,5 @@
 # D-Guy Programming Course
-This is my programming course as requested by the members of The Grove
+This is my programming course as requested by the members of The Grove. Designed around [this](https://youtu.be/XKHEtdqhLK8) old YouTube tutorial, seems to have been superseded by [this](https://youtu.be/ix9cRaBkVe0) one. I'll make it unique in my own way and may structure things differently as needed.
 
 # Lesson Plan / Overview
 Every lesson starts with a [monkeytype](https://monkeytype.com/) warmup :)
