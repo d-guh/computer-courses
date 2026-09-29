@@ -1,5 +1,5 @@
 # D-Guy Programming Course
-This is my programming course as requested by the members of The Grove. Designed around [this](https://youtu.be/XKHEtdqhLK8) old YouTube tutorial, seems to have been superseded by [this](https://youtu.be/ix9cRaBkVe0) one. I'll make it unique in my own way and may structure things differently as needed.
+This is my programming course as requested by the members of The Grove. Designed around [this](https://youtu.be/XKHEtdqhLK8) old YouTube tutorial, seems to have been superseded by [this](https://youtu.be/ix9cRaBkVe0) one. I'll make it unique in my own way and may structure things differently as needed. This is also a bit more generalized to computers and tech in general, rather than JUST python, but as far as programming goes it'll be python.
 
 # Lesson Plan / Overview
 Every lesson starts with a [monkeytype](https://monkeytype.com/) warmup :)
@@ -9,7 +9,7 @@ Every lesson starts with a [monkeytype](https://monkeytype.com/) warmup :)
     - NO AI ALLOWED (i will personally remove you)
         - It makes learning way worse
 - What is a computer?
-    - Theoretically
+    - Theoretically/Definition
     - A brief history of computing
     - Hardware and software
     - Input and output
