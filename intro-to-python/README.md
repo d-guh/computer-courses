@@ -34,22 +34,23 @@ Every lesson starts with a [monkeytype](https://monkeytype.com/) warmup :)
 
 ## Lesson 01 - Intro to Python
 - What are programming languages? (recap)
-    - Compiled vs interpreted languages
-- What is Python?
-- Why use Python?
+    - Compiled vs interpreted languages (recap)
+- What is Python? (recap)
+- Why use Python? (recap)
     - Readability, versatility
     - HUGE community
     - Used in a ton of stuff
 - Python syntax and indentation
 - Comments
-- Using python on the command-line
-- Basic debugging
+- Writing code
+- BASIC Variables and Data Types
 - **Activity:** personal introduction program
 
 ## Lesson 02 - Values, Variables, and Operations
 - Values and data (types)
 - Variables and assignment
 - Naming conventions
+    - Constants
 - Common data types:
     - Integers
     - Floating-point numbers
