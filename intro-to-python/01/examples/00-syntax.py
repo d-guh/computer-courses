@@ -10,8 +10,8 @@ if 7 > 6:
     print("7 is greater than six.")
 
 # Example of incorrect indentation:
-if 7 > 6:
-print("7 is greater than six.")
+#if 7 > 6:
+#print("7 is greater than six.")  # Error!
 
 # === Variables ===
 # This will be covered more soon in 01-variables.py

@@ -8,6 +8,7 @@
 # variables start with the name of the variable, followed by an equals sign for assignment
 # they can generally be named whatever, but have a few restrictions we won't cover right now
 variable = "value"
+# NOTE: Don't confuse `=` (assignment operator) with `==` (equality operator)
 
 # In other languages, you may need to declare a type for a variable.
 # While Python still has types, you do not need to specify them, as they are inferred.
