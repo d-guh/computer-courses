@@ -26,7 +26,8 @@ print("Hello", full_name)  # Note this `,` behaves differently than adding!
 test = "test"
 #test[2] = 'm'  # This will error!
 # However, you can still re-assign the string altogether:
-test = "temp"
+test = "temt"
+print(test)
 
 # === Resources ===
 # Intro to Python Strings - https://www.w3schools.com/python/python_strings.asp

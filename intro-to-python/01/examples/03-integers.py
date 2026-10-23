@@ -11,6 +11,7 @@ print(type(age))  # <class 'int'>
 # You cannot perform integer operations on a str!
 age_str = "21"
 #age_str += 1  # Error!
+print(age_str)
 
 # === Combining Integers ===
 total = 6 + 7

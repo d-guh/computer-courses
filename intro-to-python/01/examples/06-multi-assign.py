@@ -18,6 +18,7 @@ print(f"My name is {name} and i am {age}. I am {height}in tall. Am I human?: {hu
 
 # Multiple assignment of the same value
 value1 = value2 = value3 = value4 = 42
+print(value1, value2, value3, value4)
 
 # === Resources ===
 # https://www.w3schools.com/python/python_variables_multiple.asp
