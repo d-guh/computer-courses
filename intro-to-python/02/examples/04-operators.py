@@ -54,6 +54,15 @@ print(a ^ b)  # 00001010 ^ 00000011 = 00001001 (9)
 print(a << 2) # 00001010 << 2       = 00101000 (40)*
 print(a >> 2) # 00001010 >> 2       = 00000010 (2)*  note shifts can occasionally be more complicated while handling negative integers, we will not cover that for now.
 
+# Note: computers are actually pretty bad at multiplication! They follow the old school rule of adding something many times, with a few exceptions.
+# If a number is multiplied by a power of two, you can simply bitshift, making excellent use of binary numbers, and is very fast/efficient
+# If it's not, you can either do the addition method, or use a neat trick.
+# Break down the multiplication problem into its factors, and find the powers of two, perform that operation, and then addition the rest of the way (saves a lot!)
+# For example: 10*35
+# Rather than doing: 10+10+10+10...(35 times in total)
+# The computer does: 10 << 5 (since 2^5=32) and then adds the remaining amount +10+10+10 (equivalent to 35 times in total, but with only 4 operations made!)
+# This is the binary (base 2) equivalent of only computing the important parts on paper (base 10) that you may have learned!
+
 # === Assignment Operators ===
 print("\n=== Assignment Operators ===")
 # Assignment operators are used to assign values to variables. The value of the right is assigned to the left.
