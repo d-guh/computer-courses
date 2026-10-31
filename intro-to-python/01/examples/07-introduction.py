@@ -3,7 +3,7 @@
 
 first_name = "D"  # str, string literal
 last_name = "Guy"  # str, string literal
-full_name = first_name + last_name  # str, concatenated (added) strings
+full_name = first_name + " " + last_name  # str, concatenated (added) strings
 full_name = first_name, last_name  # str, smart concatenation
 full_name = f"{first_name} {last_name}"  # str, f-string literal
 
