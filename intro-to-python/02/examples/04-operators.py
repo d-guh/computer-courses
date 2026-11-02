@@ -16,7 +16,7 @@ print("Multiplication:", a * b)   # 60 * 7  = 420
 print("Division:", a / b)         # 60 / 7  = 8.571428571428571
 print("Floor Division:", a // b)  # 60 // 7 = 8
 print("Modulus:", a % b)          # 60 % 7  = 4
-print("Exponentiation:", a ** b)  # 60^7    = 2799360000000
+print("Exponentiation:", a ** b)  # 60 ^ 7  = 2799360000000
 
 # === Relational "Comparison" Operators ===
 print("\n=== Relational \"Comparison\" Operators ===")
