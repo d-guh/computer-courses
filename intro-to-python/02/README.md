@@ -5,26 +5,25 @@
 - Why do they exist
 - How does Python handle them
     - Strong vs weakly typed
-
-## Recap: Common Data Types
 - Strings
 - Integers
 - Floats
 - Booleans
-- `None`!
-    - Could potentially get its own slide?
 
 ## Bonus: More Data Types
-- Im blanking rn but i know there's some scuffed ones
-- Don't cover objects yet?
+- Sequence Types
+- Mapping Type
+- Set Types
+- Binary Types
+- `NoneType`
 
-## Using type()
+## Recap: Using type()
 - A bit more in-depth on using `type()`
 - Not too much to cover but explain its use for learning
 
 ## Values vs Variables vs Data
 
-## Variable Naming Conventions
+## Naming Conventions
 
 ## Type Casting/Conversion
 
@@ -34,12 +33,22 @@
 
 ## Arithmetic Operators
 
-## Comparison Operators
+## Relational “Comparison” Operators
 
-## Boolean Operators
+## Logical “Boolean” Operators
 
-## Bonus: Bitwise Operators
+## Bitwise “Binary” Operators
 
-## Demo: Unit Converter
+## Assignment Operators
 
-## Activity: Temperature Converter
+## Identity Operators
+
+## Membership Operators
+
+## Ternary Operator
+
+## Order of Operations (Operator Precedence)
+
+## Demo: Temperature Converter
+
+## Activity: Mini-Calculator
