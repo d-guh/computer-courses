@@ -6,8 +6,6 @@
 
 ## The `input()` Function
 
-## Input and Types
-
 ## String Operations
 
 ## String Indexing and Slicing
