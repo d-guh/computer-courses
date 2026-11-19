@@ -3,7 +3,10 @@
 # We've been using print for a while now, but let's actually take an in depth look
 import sys
 
+print("=== Print ===")
+
 # === Syntax ===
+print("\n=== Syntax ===")
 # The print() syntax is as follows:
 # print(*objects, sep=' ', end='\n', file=None, flush=False)
 # Note that *objects are positional arguments that accept one or more values to print
@@ -14,6 +17,7 @@ print("Hi", "Hello", "guh?", sep='')  # Prints string without the space separato
 # all of these options can be very useful for handling loops and lists etc.
 
 # === Output Streams ===
+print("\n=== Output Streams ===")
 # The OS has 2 main output streams:
 # Standard Output (stdout, fd 1)
 # Standard Error (stderr, fd 2)
@@ -22,6 +26,7 @@ print("Standard output message!")
 print("Standard error message!", file=sys.stderr)
 
 # === Low(er) Level ===
+print("\n=== Low(er) Level ===")
 sys.stdout.write("LARP")  # this is roughly equivalent to using print(), as it writes the data directly to stdout.
 
 # === Resources ===

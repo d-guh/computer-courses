@@ -3,12 +3,16 @@
 # input() is like the opposite of print, rather than outputting, it reads input!
 import sys
 
+print("=== Input ===")
+
 # === Reading Input ===
+print("\n=== Reading Input ===")
 # To read input, simply create a variable to store the input into, and optionally provide a message:
 val = input("Prompt message: ")
 print(val)
 
 # === Casting Input ===
+print("\n=== Casting Input ===")
 # Let's say you want the user to input a number
 # The info they enter is always treated as a string, but we can cast it!
 number = input("Enter a number: ")
@@ -24,8 +28,9 @@ print(f"{number} + {7} = {number + 7}")
 # Imported via sys, lets you interact with the input stream directly!
 
 # === Low(er) Level ===
+print("\n=== Low(er) Level ===")
 print("Type something: ", end='', flush=True)  # note we needed to flush here so that our message shows up before readline() blocks!
-val2 = sys.stdin.readline()  # note this can break your terminal a bit, the reason print and input are used is to perform proper clean-up and niceties!
+val2 = sys.stdin.readline()  # note this can sometimes mess up your terminal a bit, the reason print and input are used is to perform proper clean-up and niceties!
 print(val2)
 
 # === Resources ===

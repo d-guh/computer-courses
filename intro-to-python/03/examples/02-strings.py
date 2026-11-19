@@ -1,7 +1,10 @@
 # 02-strings.py
 # String operations, indexing/slicing, and string methods
 
+print("=== Strings ===")
+
 # === Recap/Overview ===
+print("\n=== Recap/Overview ===")
 # Strings store a series of characters, and they are IMMUTABLE
 # Strings are defined with single or double quotes, and can be multiline
 'single quote string'
@@ -16,6 +19,7 @@ print("hello" + " " + "world")
 print("guh??" * 5)
 
 # === Indexing and Slicing ===
+print("\n=== Indexing and Slicing ===")
 # Strings are indexed sequences, which means you can access a part of a string using index notation
 # Positive indices start at 0 and count up
 # Negative indices start at -1 and count down
@@ -30,7 +34,8 @@ print(my_string[0:4])   # I am
 print(my_string[5:11])  # a very
 print(my_string[17:-1]) # string
 
-# === Methods ===
+# === Functions/Methods ===
+print("\n=== Functions/Methods ===")
 # There are many functions/methods for manipulating strings!
 # len() gets the length of the current string
 my_string = "   Wasting  Space   "
@@ -43,6 +48,7 @@ print(my_string.lower())  # method
 print(my_string.strip().lower())  # chained methods, evaluated left to right (or inner to outer)
 
 # === Escape Characters ===
+print("\n=== Escape Characters ===")
 # Escape characters are how you get python to represent special characters that are not normally typeable or would break syntax
 # Remember that print automatically appends a newline '\n' by default!
 print("hi1\nhi2")  # newline, moves the cursor to the next line
@@ -66,6 +72,7 @@ print("\x1b[1;39mI'm normal again!")
 # Note that these are not specific to python, but your TERMINAL
 
 # === Formatted Strings / f-strings ===
+print("\n=== Formatted Strings / f-strings ===")
 # THE GOAT
 # f-strings let you use variables/expressions/statements directly within the string
 # much easier to edit, read, and understand

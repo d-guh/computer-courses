@@ -3,6 +3,8 @@
 # Validating input is important because you never know what the user will input!
 # Some may be typos, some may be actively malicious!
 
+print("=== Input Validation ===")
+
 # What could happen WITHOUT proper validation:
 num = int(input("Enter a number: "))
 # if a user enters a non-number, the program will crash!
