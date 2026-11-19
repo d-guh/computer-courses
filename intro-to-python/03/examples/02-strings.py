@@ -73,6 +73,14 @@ print("\x1b[1;39mI'm normal again!")
 name = "D-Guy"
 print(f"My name is {name}, 6 + 7 = {6 + 7}")
 
+# Originally, the format() function was used, and f-strings do the same but simpler.
+# For example, if you wanted to print 2 decimal places ($6.00 for example), you can do so with the use of format specifiers:
+price = 6
+
+print("f-string   ->", f"{price:.2f}")  # Modern standard
+print("format()   ->", format(price, ".2f"))  # OG method
+print("% operator ->", "%.2f" % price)  # Nobody does this lol
+
 # === Resources ===
 # https://www.geeksforgeeks.org/python/python-string/
 # https://docs.python.org/3/library/string.html
