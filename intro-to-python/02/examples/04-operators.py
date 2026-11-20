@@ -92,10 +92,13 @@ print(a is not b)  # 10 is not 20 = True*
 # since c is assigned from a and it points to the same low value in this case, it is identical
 # also note that integers in python may share the same object in memory (as an optimization)
 # Don't worry if you don't understand this for now, it will make more sense once we get into objects
-a = [1, 2]
-b = [1, 2]
+a = [1, 2]  # 0x6767
+b = [1, 2]  # 0x6769
+c = a       # 0x6770 -> 0x6767
+
 print(a == b)  # 1 == 1, 2 == 2 = True
 print(a is b)  # a is b         = False
+print(a is c)
 # note that in this case, even though the values are EQUAL, the objects are not IDENTICAL
 
 # === Membership Operators ===
